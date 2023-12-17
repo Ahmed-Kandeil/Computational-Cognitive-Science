@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-from pathlib import Path
-
 from models.nb_classifier import naive_bayes_classifier
 
 
