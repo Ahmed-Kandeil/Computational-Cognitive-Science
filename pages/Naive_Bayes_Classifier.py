@@ -19,7 +19,7 @@ data = st.file_uploader("Upload data file", type=["csv", "xlsx"])
 
 if data:
     df = read_data(data)
-    columns = df.columns.tolist()
+    features = df.columns.tolist()
 
     st.dataframe(df)
 
@@ -28,14 +28,14 @@ if data:
     with feature_container:
         feature_cols = st.multiselect(
             "Feature Columns",
-            options=columns,
-            default=columns[:-1],
-            max_selections=len(columns) - 1,
+            options=features,
+            default=features[:-1],
+            max_selections=len(features) - 1,
         )
 
     with target_container:
         target_col = st.selectbox(
-            "Target Column", options=columns, index=len(columns) - 1
+            "Target Column", options=features, index=len(features) - 1
         )
 
     default_values = ", ".join(["0" for _ in range(len(feature_cols))])
@@ -52,3 +52,4 @@ if data:
 
         st.dataframe(result_df)
         st.success(f"The {values} belong to class {max_prob_class}")
+        st.balloons()
