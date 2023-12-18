@@ -39,7 +39,6 @@ if data:
         )
 
     default_values = ", ".join(["0" for _ in range(len(feature_cols))])
-    print(default_values)
     values_input = st.text_input("Values", value=default_values)
 
     if values_input:
