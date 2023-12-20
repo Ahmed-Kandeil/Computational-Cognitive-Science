@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-from models.nb_classifier import naive_bayes_classifier
+from models.naive_bayes_classifier import naive_bayes_classifier
 
 
 st.set_page_config("Naive Bayes Classifier", page_icon="🧮")
