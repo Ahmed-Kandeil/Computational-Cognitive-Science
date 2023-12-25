@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-from models.nlp import nlp
+from models.nlp_naive_bayes_classifier import nlp
 
 st.set_page_config("NLP", page_icon="🧮")
 
