@@ -1,48 +1,69 @@
 import streamlit as st
 
-st.set_page_config("CCS Project", page_icon="🧮")
-st.title("About Us")
 
-st.header("Personal Details")
+st.set_page_config("About Me", page_icon="🚀")
+st.title("👋 About Me")
+
 st.write(
-    """
-    - **Name:** :orange[Ahmed Amro Abd-Elmoneim Moursi Kandil]
-    - **ID:** :orange[4211133]
-    - **Group:** :orange[A1]
-    """
+    "Welcome to my personal space! I am Ahmed, a passionate data science enthusiast "
+    "currently studying at :blue[***Delta University For Science And Technology***]."
 )
 
-st.header("Educational Background")
+st.header("🎯 Dream Job: :rainbow[Data Scientist]")
 st.write(
-    "I am an ungraded University student currently pursuing a degree in :blue[***Delta University For Science And Technology***]. "
-    "My academic journey has been focused on data science and artificial intelligence, "
-    "where I've developed a passion for extracting insights from data."
+    "My ultimate goal is to become a proficient Data Scientist and contribute meaningfully "
+    "to real-world projects that drive innovation and create a positive impact."
 )
 
-st.header("Project Overview")
 st.write(
     """
-    The Computational Cognitive Science (CCS) project is a culmination of my interest 
-    in data science and artificial intelligence. The project revolves around the implementation
-    of various Naive Bayes classifiers, with a particular focus on solving equations in Natural
-    Language Processing (NLP) and related fields.
-
-    **Objectives:**
-    - Implement and analyze the performance of different Naive Bayes classifiers.
-    - Apply these classifiers to solve equations in NLP and other relevant domains.
-    - Gain practical insights into the application of machine learning algorithms.
-
-    **Expected Outcomes:**
-    By the end of the project, I aim to become a proficient Data Scientist with a deeper
-    understanding of the practical aspects of implementing machine learning models, especially
-    Naive Bayes classifiers.
-    """
+    - 🌱 Experience Level: :green[Beginner]
+    - 🔎 Seeking: :green[Job Opportunities, Internships]
+    - 💼 Availability: :green[Open to exciting data science roles]
+"""
 )
 
-st.header("Acknowledgments")
+st.header("🔍 About Me")
 st.write(
-    "I would like to express my gratitude to :red[***Dr. Sayed***] for providing guidance "
-    "and mentorship throughout this project. Additionally, I appreciate the support and resources "
-    "provided by :blue[***Delta University For Science And Technology***] that have made this "
-    "research endeavor possible."
+    "I am an enthusiastic and curious individual, with a keen interest in extracting valuable "
+    "insights from data. My journey in the world of data science began with a fascination for Python, "
+    "and I have honed my skills in libraries like NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn "
+    "to analyze and visualize data effectively."
+)
+
+st.header("📈 Ambitions")
+st.write(
+    "As a budding data scientist, I am eager to collaborate with industry professionals and apply my "
+    "knowledge to solving real-world challenges. I am particularly interested in projects that involve "
+    "machine learning, predictive modeling, and data-driven decision-making."
+)
+
+st.header("💻 Projects")
+st.write(
+    "I have worked on various academic projects during my studies, where I got the opportunity to "
+    "demonstrate my skills in data manipulation, exploration, and modeling. I am enthusiastic about taking "
+    "on more substantial and challenging projects that allow me to grow and contribute to the data science community."
+)
+
+st.header("🌟 Why Hire Me?")
+st.write(
+    "I am a fast learner, determined to continuously improve and stay up-to-date with the latest trends in "
+    "data science. I possess strong analytical and problem-solving abilities, which I am eager to apply in "
+    "practical scenarios. Additionally, I am an excellent team player, ready to collaborate and contribute my "
+    "best to achieve common goals."
+)
+
+st.header("📧 Let's Connect")
+st.write(
+    "If you are seeking a passionate and dedicated Data Science enthusiast for your team or know of any exciting "
+    "opportunities, I would be delighted to hear from you. Let's connect and explore how we can work together to "
+    "make a difference through data-driven insights."
+)
+
+st.markdown(
+    """
+    - Connect on LinkedIn [LinkedIn](https://www.linkedin.com/in/ahmed-kandil-/)
+    - Explore my DataCamp Portfolio [DataCamp](https://www.datacamp.com/portfolio/AhmedKandil)
+    - Check out my GitHub [GitHub](https://github.com/Ahmed-Kandeil)
+"""
 )
