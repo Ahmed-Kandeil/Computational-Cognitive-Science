@@ -5,7 +5,7 @@ st.set_page_config("About Me", page_icon="🚀")
 st.title("👋 About Me")
 
 st.write(
-    "Welcome to my personal space! I am Ahmed, a passionate data science enthusiast "
+    "Welcome to my personal space! I am :orange[Ahmed Kandil], a passionate data science enthusiast "
     "currently studying at :blue[***Delta University For Science And Technology***]."
 )
 
