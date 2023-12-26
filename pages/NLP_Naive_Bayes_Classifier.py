@@ -4,7 +4,7 @@ import pandas as pd
 from models.nlp_naive_bayes_classifier import nlp
 
 
-st.set_page_config("NLP NLP", page_icon="🧮")
+st.set_page_config("NLP Naive Bayes Classifier", page_icon="🧮")
 st.title("NLP Naive Bayes Classifier")
 
 
