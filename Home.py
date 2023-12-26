@@ -23,7 +23,7 @@ st.write(
 
 st.header("Thanks")
 st.write(
-    "A special thanks to :red[***Dr.Sayed***] for guidance and :blue[***Delta University For Science And Technology***] "
+    "A special thanks to :red[***Dr. Sayed***] for guidance and :blue[***Delta University For Science And Technology***] "
     "for providing the platform for this project. "
     "We appreciate the support and resources that have made this research possible."
 )
