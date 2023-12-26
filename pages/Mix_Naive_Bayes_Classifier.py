@@ -73,9 +73,11 @@ if data:
     if values_input:
         values = [int(value) for value in values_input.split(",")]
 
+    std = float(std) if std != "" else None
+
     if st.button("Calc"):
         result_df, max_prob_class = mix_naive_bayes_classifier(
-            df, gaussian_cols, exponential_cols, target_col, values, float(std)
+            df, gaussian_cols, exponential_cols, target_col, values, std
         )
 
         st.dataframe(result_df)
