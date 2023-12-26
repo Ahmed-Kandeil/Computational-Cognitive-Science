@@ -5,6 +5,7 @@ from models.mix_naive_bayes_classifier import mix_naive_bayes_classifier
 
 
 st.set_page_config("Mix Naive Bayes Classifier", page_icon="🧮")
+st.title("Mix Naive Bayes Classifier")
 
 
 def read_data(file_path) -> pd.DataFrame:

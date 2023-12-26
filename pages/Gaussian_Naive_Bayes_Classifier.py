@@ -5,6 +5,7 @@ from models.gaussian_naive_bayes_classifier import gaussian_naive_bayes_classifi
 
 
 st.set_page_config("Gaussian Naive Bayes Classifier", page_icon="🧮")
+st.title("Gaussian Naive Bayes Classifier")
 
 
 def read_data(file_path) -> pd.DataFrame:

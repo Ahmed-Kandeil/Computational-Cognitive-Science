@@ -5,6 +5,7 @@ from models.exponential_naive_bayes_classifier import exponential_naive_bayes_cl
 
 
 st.set_page_config("Exponential Naive Bayes Classifier", page_icon="🧮")
+st.title("Exponential Naive Bayes Classifier")
 
 
 def read_data(file_path) -> pd.DataFrame:

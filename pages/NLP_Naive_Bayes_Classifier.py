@@ -3,7 +3,9 @@ import pandas as pd
 
 from models.nlp_naive_bayes_classifier import nlp
 
-st.set_page_config("NLP", page_icon="🧮")
+
+st.set_page_config("NLP NLP", page_icon="🧮")
+st.title("NLP Naive Bayes Classifier")
 
 
 def read_data(file_path) -> pd.DataFrame:

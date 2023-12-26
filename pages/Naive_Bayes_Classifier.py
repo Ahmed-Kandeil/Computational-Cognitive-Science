@@ -5,6 +5,7 @@ from models.naive_bayes_classifier import naive_bayes_classifier
 
 
 st.set_page_config("Naive Bayes Classifier", page_icon="🧮")
+st.title("Naive Bayes Classifier")
 
 
 def read_data(file_path) -> pd.DataFrame:

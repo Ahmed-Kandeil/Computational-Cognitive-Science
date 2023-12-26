@@ -4,7 +4,8 @@ import pandas as pd
 from models.posterior_probabilities import process_dataframe, posterior_probabilities
 
 
-st.set_page_config("Evidences", page_icon="🧮")
+st.set_page_config("Posterior_Probabilities", page_icon="🧮")
+st.title("Posterior_Probabilities")
 
 
 def read_data(file_path) -> pd.DataFrame:
